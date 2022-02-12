@@ -1,0 +1,275 @@
+//common
+a {
+  color: $color-2mode;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+//notification-covid
+.covid19-reminder .covid-notification {
+  background-color: $color-primary;
+  color: white;
+  height: 36px;
+  text-align: center;
+  padding-top: 0.3%;
+  font-size: 12px;
+  margin: 0;
+}
+
+//header-top
+header {
+  font-size: $font-size-primary;
+}
+
+header .header-top .nav {
+}
+
+header .header-top .nav li {
+}
+
+header .header-top .delivery-info {
+    border-right: 1px solid $color-border;
+    padding-right:30px;
+}
+header .header-top {
+}
+header .header-top .container {
+  height: 100%;
+  display: flex;
+}
+header .header-top {
+  font-size: $font-size-primary;
+  height: 39px;
+  border-bottom: 1px solid $color-border;
+}
+header .header-top .container .nav-myaccount {
+    padding-top: 0.7%;
+    width: 30%;
+    margin-right: auto;
+}
+header .header-top .container .nav-myaccount li {
+  padding-right: 2%;
+}
+header .header-top .container .nav-myaccount li a {
+}
+header .header-top .container .delivery-info {
+  color: $color-2mode;
+  padding-right: 20px;
+  border-right: 1px solid $color-border;
+}
+header .header-top .container div{
+    padding-top: 0.7%;
+    padding-left: 2%;
+}
+header .header-top .container p.delivery-info i.fa.fa-cloud-sun {
+}
+header .header-top .container .call-us {
+    border-right: 1px solid $color-border;
+    padding-right:30px;
+}
+header .header-top .container .call-us a {
+}
+header .header-top .container .language-option {
+}
+header .header-top .container .language-option a {
+}
+header .header-top .container .currency-option {
+}
+header .header-top .container .currency-option a {
+}
+header .header-top .container .language-option a i.fa.fa-angle-down {
+}
+header .header-middle {
+}
+header .header-middle .container {
+    height: 7.5rem;
+    padding: 1.8rem 0;
+    display: flex;
+}
+header .header-middle .container .logo-wrapper.col-lg-3 {
+}
+header .header-middle .container .logo-wrapper.col-lg-3 a {
+}
+header .header-middle .container .logo-wrapper a img {
+    height: 43.8px;
+    width: 164px;
+}
+header .header-middle .container .select-location.col-lg-2 {
+}
+header .header-middle .container .select-location button {
+    width:180px;
+    height:60px;
+    border-radius: 10px;
+    background-color: $color-1mode;
+    display: flex;
+}
+header
+  .header-middle
+  .container
+  .select-location
+  .button-select-location{
+      padding: 5% 10% 0 5%;
+}
+header
+  .header-middle
+  .container
+  .select-location
+  button
+  .button-select-location
+  span {
+      padding-right: 18%;
+}
+header
+  .header-middle
+  .container
+  .select-location.col-lg-2
+  button
+  .button-select-location.d-block
+  p {
+}
+header
+  .header-middle
+  .container
+  .select-location
+  button
+  i{
+      padding: 10%;
+}
+header .header-middle .container .search-product.col-lg-5 {
+}
+header .header-middle .container .search-product.col-lg-5 form.form-inline {
+   
+}
+header
+  .header-middle
+  .container
+  .search-product
+  .form-inline
+  .form-control {
+      height: 60px;
+      width: 554px;
+}
+header
+  .header-middle
+  .container
+  .search-product.col-lg-5
+  form.form-inline
+  i.fa.fa-magnifying-glass {
+}
+header .header-middle .container .header-side-buttons {
+    display: flex;
+    
+}
+
+header .header-middle .container .header-side-buttons div{ 
+}
+header .header-middle .container .header-side-buttons .account-button {
+    height: 40px;
+    width: 40px;
+    border: 2px solid $color-border;
+    border-radius: 50%;
+    padding:3px 7px;
+}
+header
+  .header-middle
+  .container
+  .header-side-buttons
+  .account-button
+  a {
+    
+}
+header
+  .header-middle
+  .container
+  .header-side-buttons.col-lg-2
+  .account-button
+  a
+  i.fa.fa-user {
+    
+}
+header .header-middle .container .header-side-buttons.col-lg-2 .carts-button {
+    
+}
+header .header-middle .container .header-side-buttons .carts-button a {
+    margin-left: 10px;
+    display: flex;
+}
+header .header-middle .container .header-side-buttons .carts-button a div{
+    display: flex;
+}
+header
+  .header-middle
+  .container
+  .header-side-buttons
+  .carts-button
+  a
+  span {
+    font-size: $font-size-primary;
+}
+header
+  .header-middle
+  .container
+  .header-side-buttons
+  .carts-button
+  a
+  div {
+      height:40px;
+      width:40px;
+    border: 1px solid $color-border;
+    border-radius: 50%;
+}
+header
+  .header-middle
+  .container
+  .header-side-buttons.col-lg-2
+  .carts-button
+  a
+  i.fa.fa-opencart {
+}
+header .header-middle .container .cart-wrapper-box {
+}
+header .header-middle .container .cart-wrapper-box i.fa.fa-cart-plus {
+}
+header .header-middle .container .cart-wrapper-box p {
+}
+header .header-bottom {
+}
+header .header-bottom .container {
+    display: flex;
+}
+header .header-bottom .container button.button-all-catagories {
+}
+header .header-bottom .container button.button-all-catagories i.fa.fa-bars {
+}
+header
+  .header-bottom
+  .container
+  button.button-all-catagories
+  i.fa.fa-angle-down {
+}
+header
+  .header-bottom
+  .container
+  button.button-all-catagories
+  .all-product-count {
+}
+header .header-bottom .container .menu-wrapper {
+}
+header .header-bottom .container .menu-wrapper ul {
+}
+header .header-bottom .container .menu-wrapper ul li {
+}
+header .header-bottom .container .menu-wrapper ul li a {
+}
+header .header-bottom .container .menu-wrapper ul li a i.fa.fa-angle-down {
+}
+header .header-bottom .container .menu-wrapper ul li a i.fa.fa-drumstick-bite {
+}
+header .header-bottom .container .menu-wrapper ul li a i.fa.fa-bread-slice {
+}
+header .header-bottom .container .menu-wrapper ul li a i.fa.fa-mug-hot {
+}
+
+//header-middle

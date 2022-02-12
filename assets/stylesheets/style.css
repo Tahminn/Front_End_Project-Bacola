@@ -1,1 +1,183 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+a {
+  color: #393e4d;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.covid19-reminder .covid-notification {
+  background-color: #233a95;
+  color: white;
+  height: 36px;
+  text-align: center;
+  padding-top: 0.3%;
+  font-size: 12px;
+  margin: 0;
+}
+
+header {
+  font-size: 0.75rem;
+}
+
+header .header-top .delivery-info {
+  border-right: 1px solid #ced2db;
+  padding-right: 30px;
+}
+
+header .header-top .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-top {
+  font-size: 0.75rem;
+  height: 39px;
+  border-bottom: 1px solid #ced2db;
+}
+
+header .header-top .container .nav-myaccount {
+  padding-top: 0.7%;
+  width: 30%;
+  margin-right: auto;
+}
+
+header .header-top .container .nav-myaccount li {
+  padding-right: 2%;
+}
+
+header .header-top .container .delivery-info {
+  color: #393e4d;
+  padding-right: 20px;
+  border-right: 1px solid #ced2db;
+}
+
+header .header-top .container div {
+  padding-top: 0.7%;
+  padding-left: 2%;
+}
+
+header .header-top .container .call-us {
+  border-right: 1px solid #ced2db;
+  padding-right: 30px;
+}
+
+header .header-middle .container {
+  height: 7.5rem;
+  padding: 1.8rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-middle .container .logo-wrapper a img {
+  height: 43.8px;
+  width: 164px;
+}
+
+header .header-middle .container .select-location button {
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header
+.header-middle
+.container
+.select-location
+.button-select-location {
+  padding: 5% 10% 0 5%;
+}
+
+header
+.header-middle
+.container
+.select-location
+button
+.button-select-location
+span {
+  padding-right: 18%;
+}
+
+header
+.header-middle
+.container
+.select-location
+button
+i {
+  padding: 10%;
+}
+
+header
+.header-middle
+.container
+.search-product
+.form-inline
+.form-control {
+  height: 60px;
+  width: 554px;
+}
+
+header .header-middle .container .header-side-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-middle .container .header-side-buttons .account-button {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #ced2db;
+  border-radius: 50%;
+  padding: 3px 7px;
+}
+
+header .header-middle .container .header-side-buttons .carts-button a {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-middle .container .header-side-buttons .carts-button a div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header
+.header-middle
+.container
+.header-side-buttons
+.carts-button
+a
+span {
+  font-size: 0.75rem;
+}
+
+header
+.header-middle
+.container
+.header-side-buttons
+.carts-button
+a
+div {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #ced2db;
+  border-radius: 50%;
+}
+
+header .header-bottom .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
