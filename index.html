@@ -34,23 +34,40 @@
           </div>
           <div class="language-option">
             <a href="#">English <i class="fa fa-angle-down"></i></a>
+            <ul class="language-menu inactive">
+              <li><a href="#">English</a></li>
+              <li><a href="#">German</a></li>
+              <li><a href="#">Spanish</a></li>
+            </ul>
           </div>
           <div class="currency-option">
             <a href="#">USD <i class="fa fa-angle-down"></i></a>
+            <ul class="currency-menu inactive">
+              <li><a href="#">USD</a></li>
+              <li><a href="#">INR</a></li>
+              <li><a href="#">GBP</a></li>
+            </ul>
           </div>
         </div>
       </div>
+      <hr />
       <div class="header-middle">
         <div class="container">
-          <div class="logo-wrapper col-lg-3">
+          <div class="logo-wrapper">
             <a href="./index.html"
               ><img src="./assets/img/bacola-logo.png" alt="" />
-              <p style="color: rgb(150, 147, 147)">
+              <p
+                style="
+                  color: rgb(150, 147, 147);
+                  font-size: 0.65rem;
+                  text-align: center;
+                "
+              >
                 Online Grocery Shopping Center
               </p></a
             >
           </div>
-          <div class="select-location col-lg-2">
+          <div class="select-location">
             <button>
               <div class="button-select-location">
                 <span>Your location</span>
@@ -59,7 +76,7 @@
               <i class="fa fa-angle-down fa-2x"></i>
             </button>
           </div>
-          <div class="search-product col-lg-5">
+          <div class="search-product">
             <form class="form-inline">
               <input
                 class="form-control mr-sm-2"
@@ -70,7 +87,7 @@
               <i class="fa fa-magnifying-glass"></i>
             </form>
           </div>
-          <div class="header-side-buttons col-lg-2">
+          <div class="header-side-buttons">
             <div class="account-button">
               <a href="#"><i class="fa fa-user fa-2x"></i></a>
             </div>
@@ -83,31 +100,118 @@
               </a>
             </div>
           </div>
-          <div class="cart-wrapper-box">
-            <i class="fa fa-cart-plus"></i>
-            <p>No products in the cart</p>
-          </div>
         </div>
       </div>
       <div class="header-bottom">
         <div class="container">
-          <button
-            class="button-all-catagories"
-            data-toggle="collapse"
-            data-target="#"
-          >
-            <i class="fa fa-bars"></i>
-            ALL CATAGORIES
-            <i class="fa fa-angle-down"></i>
+          <div class="button-box">
+            <button class="button-all-catagories">
+              <i class="fa fa-bars"></i>
+              ALL CATAGORIES
+              <i class="fa fa-angle-down"></i>
+            </button>
             <div class="all-product-count">Total 0 products</div>
-          </button>
+            <ul class="all-catagories collapsed">
+              <li>
+                <a href="#"
+                  ><i class="fal fa-apple-alt"></i>Fruits & Vegetables<i style="margin-left:2.6rem; font-size: 1rem" class="fal fa-angle-right"></i></a
+                >
+                <ul class="fruits-vegetables-list inactive">
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="fal fa-steak"></i>Meats & Seafood</a></li>
+              <li><a href="#"><i class="fal fa-egg"></i>Breakfast & dairy</a></li>
+              <li>
+                <a href="#"><i class="fal fa-mug-hot"></i>Beverages<i style="margin-left:6rem; font-size: 1rem" class="fal fa-angle-right"></i></a>
+                <ul class="beverages-list inactive">
+                  <li><a href="#">Beverages</a></li>
+                  <li><a href="#">Beverages</a></li>
+                  <li><a href="#">Beverages</a></li>
+                  <li><a href="#">Beverages</a></li>
+                  <li><a href="#">Beverages</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="fal fa-bread-slice"></i>Breads & Bakery</a></li>
+              <li><a href="#"><i class="fal fa-snowflake"></i>Frozen Foods</a></li>
+              <li><a href="#"><i class="fal fa-cookie"></i>Biscuits & Snacks</a></li>
+              <li><a href="#"><i class="fal fa-leaf"></i>Grocery & Staples</a></li>
+              <hr />
+              <li><a href="#">Value of the Day</a></li>
+              <li><a href="#">Top 100 Offers</a></li>
+              <li><a href="#">New Arrivals</a></li>
+            </ul>
+          </div>
           <div class="menu-wrapper">
             <ul>
               <li>
-                <a href="#">Home <i class="fa fa-angle-down"></i></a>
+                <a href="#">HOME <i class="fa fa-angle-down"></i></a>
+                <ul class="home-menu inactive">
+                  <li><a href="#">HOME 1</a></li>
+                  <li><a href="#">HOME 2</a></li>
+                  <li><a href="#">HOME 3</a></li>
+                  <li><a href="#">HOME 4</a></li>
+                  <li><a href="#">HOME 5</a></li>
+                </ul>
               </li>
               <li>
                 <a href="#">SHOP <i class="fa fa-angle-down"></i></a>
+                <ul class="shop-menu inactive">
+                  <li>
+                    <a href="#">HOME 1</a>
+                    <ul style="display: block">
+                      <li><a href="#">Home 1</a></li>
+                      <li><a href="#">Home 1</a></li>
+                      <li><a href="#">Home 1</a></li>
+                      <li><a href="#">Home 1</a></li>
+                      <li><a href="#">Home 1</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">HOME 2</a>
+                    <ul style="display: block">
+                      <li><a href="#">Home 2</a></li>
+                      <li><a href="#">Home 2</a></li>
+                      <li><a href="#">Home 2</a></li>
+                      <li><a href="#">Home 2</a></li>
+                      <li><a href="#">Home 2</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">HOME 3</a>
+                    <ul style="display: block">
+                      <li><a href="#">Home 3</a></li>
+                      <li><a href="#">Home 3</a></li>
+                      <li><a href="#">Home 3</a></li>
+                      <li><a href="#">Home 3</a></li>
+                      <li><a href="#">Home 3</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">HOME 4</a>
+                    <ul style="display: block">
+                      <li><a href="#">Home 4</a></li>
+                      <li><a href="#">Home 4</a></li>
+                      <li><a href="#">Home 4</a></li>
+                      <li><a href="#">Home 4</a></li>
+                      <li><a href="#">Home 4</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">HOME 5</a>
+                    <ul style="display: block">
+                      <li><a href="#">Home 5</a></li>
+                      <li><a href="#">Home 5</a></li>
+                      <li><a href="#">Home 5</a></li>
+                      <li><a href="#">Home 5</a></li>
+                      <li><a href="#">Home 5</a></li>
+                    </ul>
+                  </li>
+                </ul>
               </li>
               <li>
                 <a href="#"
@@ -127,9 +231,101 @@
         </div>
       </div>
     </header>
+    <hr />
     <main></main>
     <footer></footer>
-
+    <div class="select-location-back">
+      <div class="select-location-box">
+        <div style="display: flex">
+          <h5>Choose your Delivery Location</h5>
+          <i style="margin-left: auto; cursor: pointer" class="fa fa-times"></i>
+        </div>
+        <p style="font-size: 12px">
+          Enter your address and we will specify the offer dor your area.
+        </p>
+        <div class="search-product" style="padding-top: 10px">
+          <form class="form-inline">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <i class="fa fa-magnifying-glass"></i>
+          </form>
+        </div>
+        <div class="locations">
+          <ul>
+            <li>
+              <a href="#">
+                <span>Selecet a Location</span>
+                <div>Clear All</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
@@ -146,10 +342,12 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://kit.fontawesome.com/f321d64256.js"
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF"
       crossorigin="anonymous"
-    ></script>
+    />
     <script src="./assets/js/index.js"></script>
   </body>
 </html>
