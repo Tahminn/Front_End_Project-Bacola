@@ -1,0 +1,49 @@
+#product-filters {  }
+ #product-filters div.container { 
+     margin: 50px auto;
+  }
+  #product-filters div.container div.row {  }
+   #product-filters div.container div.row div.col-3 {  }
+    #product-filters div.container div.row div.col-3 div.category-info {  }
+     #product-filters div.container div.row div.col-3 div.category-info div.product-categories { 
+         height: 300px;
+         overflow-y: scroll;
+         overflow-x: hidden;
+      }
+      #product-filters div.container div.row div.col-3 div.category-info div.product-categories h6 { 
+          font-size: $font-size-primary + 0.2;
+          font-weight: 600;
+       }
+      #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul { 
+        padding: 0;
+       }
+       #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul.inactive { 
+        display: none;
+       }
+       #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul li { 
+           
+        }
+        #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul li span { 
+            font-size: $font-size-primary + 0.1;
+            color: $color-3mode;
+            cursor: pointer;
+            width: 100%;
+         }
+         #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul li span i.fal.fa-square { 
+            margin-right: 10px;
+          }
+          #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul li span i.fal.fa-plus,  i.fal.fa-minus{ 
+            margin-left: 40%;
+          }
+         #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul li p i.fal.fa-plus {  }
+        #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul li ul {
+            padding-left: 2rem;
+          }
+         #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul li ul li {  }
+          #product-filters div.container div.row div.col-3 div.category-info div.product-categories ul li ul li i.fal.fa-square { 
+              
+           }
+     #product-filters div.container div.row div.col-3 div.category-info div.filter-by-price {  }
+     #product-filters div.container div.row div.col-3 div.category-info div.product-status {  }
+     #product-filters div.container div.row div.col-3 div.category-info div.product-brands {  }
+     #product-filters div.container div.row div.col-3 div.category-info div.product-ad {  }
