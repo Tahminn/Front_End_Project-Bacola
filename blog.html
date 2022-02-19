@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/bootstrap_js_css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/style.css" />
+    <title>Blog</title>
+  </head>
+
+  <body>
+    <div class="covid19-reminder">
+      <p class="covid-notification">
+        Due to the <b>COVID 19</b> epidemic, orders may be processed with a
+        slight delay
+      </p>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-fixed">
+        <div class="sidebar-top">
+          <img
+            class="bacola-logo-first"
+            src="./assets/img/bacola-logo.png"
+            alt=""
+          /><i class="fal fa-times fa-2x"></i>
+        </div>
+        <div class="select-location">
+          <button>
+            <div class="button-select-location">
+              <span>Your location</span>
+              <p>Select a location</p>
+            </div>
+            <i class="fa fa-angle-down fa-2x"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <ul class="nav nav-myaccount">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">My account</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Order Tracking</a></li>
+          </ul>
+          <div class="delivery-info">
+            <i class="fa fa-cloud-sun"></i> 100% Secure delivery without
+            contacting the courier
+          </div>
+          <div class="call-us">
+            Need Help? Call us: <a href="#">+ 0020 500</a>
+          </div>
+          <div class="language-option">
+            <a href="#">English <i class="fa fa-angle-down"></i></a>
+            <ul class="language-menu inactive">
+              <li><a href="#">English</a></li>
+              <li><a href="#">German</a></li>
+              <li><a href="#">Spanish</a></li>
+            </ul>
+          </div>
+          <div class="currency-option">
+            <a href="#">USD <i class="fa fa-angle-down"></i></a>
+            <ul class="currency-menu inactive">
+              <li><a href="#">USD</a></li>
+              <li><a href="#">INR</a></li>
+              <li><a href="#">GBP</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="header-middle">
+        <div class="container">
+          <div class="sidebar-icon">
+            <i class="fal fa-bars fa-3x"></i>
+          </div>
+          <div class="logo-wrapper">
+            <a href="./index.html"
+              ><img
+                class="bacola-logo-first"
+                src="./assets/img/bacola-logo.png"
+                alt=""
+              />
+              <img
+                class="bacola-logo-second"
+                src="./assets/img/bacola-secondary-logo.png"
+                alt=""
+              />
+              <p
+                style="
+                  color: rgb(150, 147, 147);
+                  font-size: 0.65rem;
+                  text-align: center;
+                "
+              >
+                Online Grocery Shopping Center
+              </p></a
+            >
+          </div>
+          <div class="select-location">
+            <button>
+              <div class="button-select-location">
+                <span>Your location</span>
+                <p>Select a location</p>
+              </div>
+              <i class="fa fa-angle-down fa-2x"></i>
+            </button>
+          </div>
+          <div class="search-product">
+            <form class="form-inline">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <i class="fa fa-magnifying-glass"></i>
+            </form>
+          </div>
+          <div class="header-side-buttons">
+            <div class="account-button">
+              <a href="#"><i class="fa fa-user fa-2x"></i></a>
+            </div>
+            <div class="carts-button">
+              <a href="./cart.html">
+                <span>$0.00</span>
+                <div>
+                  <i class="fa fa-opencart fa-2x"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <div class="button-box">
+            <button class="button-all-catagories">
+              <i class="fa fa-bars"></i>
+              ALL CATAGORIES
+              <i class="fa fa-angle-down"></i>
+            </button>
+            <div class="all-product-count">Total 0 products</div>
+            <ul class="all-catagories collapsed">
+              <li>
+                <a href="#"
+                  ><i class="fal fa-apple-alt"></i>Fruits & Vegetables<i
+                    style="margin-left: 2.6rem; font-size: 1rem"
+                    class="fal fa-angle-right"
+                  ></i
+                ></a>
+                <ul class="fruits-vegetables-list inactive">
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                  <li><a href="#">Fruits & Vegetables</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fal fa-steak"></i>Meats & Seafood</a>
+              </li>
+              <li>
+                <a href="#"><i class="fal fa-egg"></i>Breakfast & dairy</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fal fa-mug-hot"></i>Beverages<i
+                    style="margin-left: 6rem; font-size: 1rem"
+                    class="fal fa-angle-right"
+                  ></i
+                ></a>
+                <ul class="beverages-list inactive">
+                  <li><a href="#">Beverages</a></li>
+                  <li><a href="#">Beverages</a></li>
+                  <li><a href="#">Beverages</a></li>
+                  <li><a href="#">Beverages</a></li>
+                  <li><a href="#">Beverages</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fal fa-bread-slice"></i>Breads & Bakery</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fal fa-snowflake"></i>Frozen Foods</a>
+              </li>
+              <li>
+                <a href="#"><i class="fal fa-cookie"></i>Biscuits & Snacks</a>
+              </li>
+              <li>
+                <a href="#"><i class="fal fa-leaf"></i>Grocery & Staples</a>
+              </li>
+              <hr />
+              <li><a href="#">Value of the Day</a></li>
+              <li><a href="#">Top 100 Offers</a></li>
+              <li><a href="#">New Arrivals</a></li>
+            </ul>
+          </div>
+          <div class="menu-wrapper">
+            <ul>
+              <li>
+                <div class="home-box">
+                  <a class="menu-a" href="#"
+                    >HOME <i class="fa fa-angle-down"></i
+                  ></a>
+                  <ul class="home-menu inactive">
+                    <li><a href="#">HOME 1</a></li>
+                    <li><a href="#">HOME 2</a></li>
+                    <li><a href="#">HOME 3</a></li>
+                    <li><a href="#">HOME 4</a></li>
+                    <li><a href="#">HOME 5</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="shop-box">
+                  <a class="menu-a" href="./shop.html"
+                    >SHOP <i class="fa fa-angle-down"></i
+                  ></a>
+                  <ul class="shop-menu inactive">
+                    <li>
+                      <a href="#">HOME 1</a>
+                      <ul style="display: block">
+                        <li><a href="#">Home 1</a></li>
+                        <li><a href="#">Home 1</a></li>
+                        <li><a href="#">Home 1</a></li>
+                        <li><a href="#">Home 1</a></li>
+                        <li><a href="#">Home 1</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">HOME 2</a>
+                      <ul style="display: block">
+                        <li><a href="#">Home 2</a></li>
+                        <li><a href="#">Home 2</a></li>
+                        <li><a href="#">Home 2</a></li>
+                        <li><a href="#">Home 2</a></li>
+                        <li><a href="#">Home 2</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">HOME 3</a>
+                      <ul style="display: block">
+                        <li><a href="#">Home 3</a></li>
+                        <li><a href="#">Home 3</a></li>
+                        <li><a href="#">Home 3</a></li>
+                        <li><a href="#">Home 3</a></li>
+                        <li><a href="#">Home 3</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">HOME 4</a>
+                      <ul style="display: block">
+                        <li><a href="#">Home 4</a></li>
+                        <li><a href="#">Home 4</a></li>
+                        <li><a href="#">Home 4</a></li>
+                        <li><a href="#">Home 4</a></li>
+                        <li><a href="#">Home 4</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">HOME 5</a>
+                      <ul style="display: block">
+                        <li><a href="#">Home 5</a></li>
+                        <li><a href="#">Home 5</a></li>
+                        <li><a href="#">Home 5</a></li>
+                        <li><a href="#">Home 5</a></li>
+                        <li><a href="#">Home 5</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-drumstick-bite"></i> MEATS&SEAFOOD</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-bread-slice"></i> BAKERY</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-mug-hot"></i> BEVERAGES</a>
+              </li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <hr />
+    <main>
+      <section id="blog-page">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 col-12">
+              <div class="content-pages">
+                <ul class="content" id="1">
+                  <div class="blog-elements">
+                    <div class="blog-img">
+                      <a href="#">
+                        <img
+                          src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/blog-3.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-info">
+                      <span><i class="fal fa-clock"></i>May 3, 2021</span>
+                      <span><i class="fal fa-bookmark"></i>Tips & Tricks</span>
+                      <span
+                        ><i class="fal fa-capsules"></i>food, store, theme
+                        forest</span
+                      >
+                    </div>
+                    <div class="blog-content">
+                      <h1>
+                        But I must explain to you how all this mistaken idea
+                      </h1>
+                      <p>
+                        Pellentesque feugiat, sem id interdum molestie, libero
+                        nibh imperdiet velit, sodales elementum enim sem sed
+                        lectus. Vivamus viverra diam congue tristique
+                        pellentesque. Proin efficitur est vel lectus ultrices
+                        rhoncus eu ut lacus. In gravida leo at justo lobortis,
+                        vitae aliquet justo vehicula. Maecenas at facilisis ex.
+                        Curabitur cursus, ex id efficitur ultrices, sapien
+                        mauris sodales
+                      </p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                  <div class="blog-elements">
+                    <div class="blog-img">
+                      <a href="#">
+                        <img
+                          src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/blog-5.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-info">
+                      <span><i class="fal fa-clock"></i>May 3, 2021</span>
+                      <span><i class="fal fa-bookmark"></i>Tips & Tricks</span>
+                      <span
+                        ><i class="fal fa-capsules"></i>food, store, theme
+                        forest</span
+                      >
+                    </div>
+                    <div class="blog-content">
+                      <h1>
+                        But I must explain to you how all this mistaken idea
+                      </h1>
+                      <p>
+                        Pellentesque feugiat, sem id interdum molestie, libero
+                        nibh imperdiet velit, sodales elementum enim sem sed
+                        lectus. Vivamus viverra diam congue tristique
+                        pellentesque. Proin efficitur est vel lectus ultrices
+                        rhoncus eu ut lacus. In gravida leo at justo lobortis,
+                        vitae aliquet justo vehicula. Maecenas at facilisis ex.
+                        Curabitur cursus, ex id efficitur ultrices, sapien
+                        mauris sodales
+                      </p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                  <div class="blog-elements">
+                    <div class="blog-img">
+                      <a href="#">
+                        <img
+                          src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/blog-1.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-info">
+                      <span><i class="fal fa-clock"></i>May 3, 2021</span>
+                      <span><i class="fal fa-bookmark"></i>Tips & Tricks</span>
+                      <span
+                        ><i class="fal fa-capsules"></i>food, store, theme
+                        forest</span
+                      >
+                    </div>
+                    <div class="blog-content">
+                      <h1>The Problem With Typefaces on the Web</h1>
+                      <p>
+                        Pellentesque feugiat, sem id interdum molestie, libero
+                        nibh imperdiet velit, sodales elementum enim sem sed
+                        lectus. Vivamus viverra diam congue tristique
+                        pellentesque. Proin efficitur est vel lectus ultrices
+                        rhoncus eu ut lacus. In gravida leo at justo lobortis,
+                        vitae aliquet justo vehicula. Maecenas at facilisis ex.
+                        Curabitur cursus, ex id efficitur ultrices, sapien
+                        mauris sodales
+                      </p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </ul>
+                <ul class="content inactive" id="2">
+                  <div class="blog-elements">
+                    <div class="blog-img">
+                      <a href="#">
+                        <img
+                          src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/blog-4.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-info">
+                      <span><i class="fal fa-clock"></i>May 3, 2021</span>
+                      <span><i class="fal fa-bookmark"></i>Tips & Tricks</span>
+                      <span
+                        ><i class="fal fa-capsules"></i>food, store, theme
+                        forest</span
+                      >
+                    </div>
+                    <div class="blog-content">
+                      <h1>
+                        On the other hand we provide denounce with righteous
+                      </h1>
+                      <p>
+                        Pellentesque feugiat, sem id interdum molestie, libero
+                        nibh imperdiet velit, sodales elementum enim sem sed
+                        lectus. Vivamus viverra diam congue tristique
+                        pellentesque. Proin efficitur est vel lectus ultrices
+                        rhoncus eu ut lacus. In gravida leo at justo lobortis,
+                        vitae aliquet justo vehicula. Maecenas at facilisis ex.
+                        Curabitur cursus, ex id efficitur ultrices, sapien
+                        mauris sodales
+                      </p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+              <div class="row">
+                <div class="pagination-numbers">
+                  <ul>
+                    <li><span id="1">1</span></li>
+                    <li><span id="2">2</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-12">
+              <div class="row">
+                <div class="search-button">
+                  <form action="#">
+                    <input type="text" value="   Search..." /><i
+                      class="fal fa-search"
+                    ></i>
+                  </form>
+                </div>
+                <div class="popular-posts">
+                  <h4>POPULAR POSTS</h4>
+                </div>
+                <div class="post-contents">
+                  <div class="contents row">
+                    <div class="left-content">
+                      <a href="#"
+                        ><img
+                          src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/blog-3-100x100.jpg"
+                          alt=""
+                      /></a>
+                    </div>
+                    <div class="right-content">
+                      <a href="#"
+                        ><span
+                          >But I must explain to you how all this mistaken
+                          idea</span
+                        ></a
+                      >
+                    </div>
+                  </div>
+                  <div class="contents row">
+                    <div class="left-content">
+                      <a href="#"
+                        ><img
+                          src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/blog-5-100x100.jpg"
+                          alt=""
+                      /></a>
+                    </div>
+                    <div class="right-content">
+                      <a href="#"
+                        ><span>The Problem With Typefaces on the Web</span></a
+                      >
+                    </div>
+                  </div>
+                  <div class="contents row">
+                    <div class="left-content">
+                      <a href="#"
+                        ><img
+                          src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/blog-1-100x100.jpg"
+                          alt=""
+                      /></a>
+                    </div>
+                    <div class="right-content">
+                      <a href="#"
+                        ><span
+                          >English Breakfast Tea With Tasty Donut Desserts</span
+                        ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="social-media">
+                    <h5>SOCIAL MEDIA</h5>
+                  <div class="facebook">
+                      <a href="#"><i class="fab fa-facebook-f"></i><span>FACEBOOK</span></a>                    
+                  </div>
+                  <div class="twitter">
+                    <a href="#"><i class="fab fa-twitter"></i><span>TWITTER</span></a>   
+                  </div>
+                  <div class="pinterest">
+                    <a href="#"><i class="fab fa-pinterest-p"></i><span>PINTEREST</span></a>   
+                  </div>
+                  <div class="linkedin">
+                    <a href="#"><i class="fab fa-linkedin-in"></i><span>LINKEDIN</span></a>   
+                  </div>
+                  <div class="reddit">
+                    <a href="#"><i class="fab fa-reddit-alien"></i><span>REDDIT</span></a>   
+                  </div>
+                </div>
+                <div class="widget-banner">
+                    <h5>Widget Banner</h5>
+                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/sidebar-banner.gif" 
+                    class="image wp-image-1184  attachment-full size-full" 
+                    alt="" loading="lazy" style="max-width: 100%; height: auto;" 
+                    width="1280" height="1750"
+                    >
+                </div>
+                <div class="tags">
+                    <h5>TAGS</h5>
+                    <div class="boxes-tag">
+                        <div class="tag-box">envato</div>
+                        <div class="tag-box">food</div>
+                        <div class="tag-box">fresh</div>
+                        <div class="tag-box">grocery</div>
+                        <div class="tag-box">organic</div>
+                        <div class="tag-box">quality</div>
+                        <div class="tag-box">store</div>
+                        <div class="tag-box">themeforest</div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-subscription">
+        <div class="container">
+          <div class="row">
+            <div class="coll-sub-4">
+              <div class="join-info">
+                <span>$20 discount for your first order</span>
+                <h3>Join our newsletter and get...</h3>
+                <span
+                  >Join our email subscription now to get updates on promotions
+                  and coupons.</span
+                >
+              </div>
+              <div class="subscribe-form">
+                <form action="#">
+                  <i class="fal fa-envelope"></i>
+                  <input type="text" placeholder="Your email address" />
+                  <input type="submit" value="Subscribe" />
+                </form>
+              </div>
+            </div>
+            <div class="coll-sub-4">
+              <div class="join-info">
+                <img
+                  src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/coupon.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-advantages">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-3">
+              <span><i class="fal fa-box"></i>Everyday fresh products</span>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3">
+              <span
+                ><i class="fal fa-truck"></i>Free delivery for order over $70
+              </span>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3">
+              <span
+                ><i class="fal fa-badge-percent"></i>Daily Mega Discounts</span
+              >
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3">
+              <span
+                ><i class="fal fa-usd-circle"></i>Best price on the market</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container"><hr /></div>
+      <div class="footer-menu">
+        <div class="container">
+          <div class="row">
+            <div class="coll-2">
+              <h6>FRUIT & VEGETABLES</h6>
+              <ul>
+                <li><a href="#">Fresh vegetables</a></li>
+                <li><a href="#">Herbs & Seasonings</a></li>
+                <li><a href="#">Fresh Fruits</a></li>
+                <li><a href="#">Cuts & Sprouts</a></li>
+                <li><a href="#">Exotic Fruits & Veggies</a></li>
+                <li><a href="#">Packaged Produce</a></li>
+                <li><a href="#">Party Trays</a></li>
+              </ul>
+            </div>
+            <div class="coll-2">
+              <h6>Breakfast & Dairy</h6>
+              <ul>
+                <li><a href="#">Milk & Flavoured Milk</a></li>
+                <li><a href="#">Butter and Margarine</a></li>
+                <li><a href="#">Cheese</a></li>
+                <li><a href="#">Eggs Substitutes</a></li>
+                <li><a href="#">Honey</a></li>
+                <li><a href="#">Marmalades</a></li>
+                <li><a href="#">Sour Cream and Dips</a></li>
+                <li><a href="#">Yogurt</a></li>
+              </ul>
+            </div>
+            <div class="coll-2">
+              <h6>Meat & Seafood</h6>
+              <ul>
+                <li><a href="#">Breakfast Sausage</a></li>
+                <li><a href="#">Dinner Sausage</a></li>
+                <li><a href="#">Beef</a></li>
+                <li><a href="#">Chicken</a></li>
+                <li><a href="#">Sliced Deli Meat</a></li>
+                <li><a href="#">Shrimp</a></li>
+                <li><a href="#">Wild Caught Fillets</a></li>
+                <li><a href="#">Crab and Shellfish</a></li>
+                <li><a href="#">Farm Raised Fillets</a></li>
+              </ul>
+            </div>
+            <div class="coll-2">
+              <h6>Beverages</h6>
+              <ul>
+                <li><a href="#">Water</a></li>
+                <li><a href="#">Sparkling Water</a></li>
+                <li><a href="#">Soda & Pop</a></li>
+                <li><a href="#">Coffee</a></li>
+                <li><a href="#">Milk & Plant-Based Milk</a></li>
+                <li><a href="#">Tea & Kombucha</a></li>
+                <li><a href="#">Drink Boxes & Pouches</a></li>
+                <li><a href="#">Craft Beer</a></li>
+                <li><a href="#">Wine</a></li>
+              </ul>
+            </div>
+            <div class="coll-2">
+              <h6>Breads & Bakery</h6>
+              <ul>
+                <li><a href="#">Milk & Flavoured Milk</a></li>
+                <li><a href="#">Butter and Margarine</a></li>
+                <li><a href="#">Cheese</a></li>
+                <li><a href="#">Eggs Substitutes</a></li>
+                <li><a href="#">Honey</a></li>
+                <li><a href="#">Marmalades</a></li>
+                <li><a href="#">Sour Cream and Dips</a></li>
+                <li><a href="#">Yogurt</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 col-xs-12">
+              <div class="icon-phone">
+                <i class="fal fa-phone"></i>
+              </div>
+              <div class="phone-number">
+                <p>8 800 555-55</p>
+                <span>Working 8:00 - 22:00</span>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-lg-9 col-sm-9 col-xs-12">
+                  <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                      <p>Download App on Mobile :</p>
+                      <span>15% discount on your first purchase</span>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                      <a href="#">
+                        <img
+                          src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/google-play.png"
+                          alt=""
+                        />
+                      </a>
+                      <a href="#">
+                        <img
+                          src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/app-store.png"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-12">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container"><hr /></div>
+      <div class="footer-privacy-terms">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 col-xs-12">
+              <div class="icon-phone">
+                <p>
+                  Copyright 2022 © Bacola WordPress Theme. All rights reserved.
+                  Powered by KlbTheme.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Terms and Conditions</a>
+                  <a href="#">Cookie</a>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                  <div class="payment-methods">
+                    <a href="#">
+                      <img
+                        src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/payments.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="select-location-back inactive">
+      <div class="select-location-box">
+        <div style="display: flex">
+          <h5>Choose your Delivery Location</h5>
+          <i style="margin-left: auto; cursor: pointer" class="fa fa-times"></i>
+        </div>
+        <p style="font-size: 12px">
+          Enter your address and we will specify the offer dor your area.
+        </p>
+        <div class="search-product" style="padding-top: 10px">
+          <form class="form-inline">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <i class="fa fa-magnifying-glass"></i>
+          </form>
+        </div>
+        <div class="locations">
+          <ul>
+            <li>
+              <a href="#">
+                <span>Select a Location</span>
+                <div>Clear All</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Alabama</span>
+                <div>Min:$130</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="background-opacity inactive"></div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF"
+      crossorigin="anonymous"
+    />
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/blog.js"></script>
+  </body>
+</html>
