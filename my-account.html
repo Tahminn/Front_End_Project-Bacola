@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/bootstrap_js_css/bootstrap.css" />
     <link rel="stylesheet" href="./assets/stylesheets/style.css" />
-    <title>Contact</title>
+    <title>My Account</title>
   </head>
 
   <body>
@@ -295,69 +295,65 @@
     </header>
     <hr />
     <main>
-      <section id="contact">
+      <section id="log-reg">
         <div class="container">
-          <div class="header-contact">
-            <h1>Get In Touch</h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
-              quaerat unde quam dolor culpa veritatis inventore, aut commodi eum
-              veniam vel.
-            </p>
-          </div>
-          <div class="contact-info">
-            <div class="row">
-              <div class="location">
-                <i class="fal fa-map-marker-alt fa-3x"></i>
-                <h5>102 Street 2714 Donovan</h5>
-                <p>Lorem ipsum dolar site amet discont</p>
-              </div>
-              <div class="contact-number">
-                <i class="fal fa-phone fa-3x"></i>
-                <h5>+02 1234 567 88</h5>
-                <p>Lorem ipsum dolar site amet discont</p>
-              </div>
-              <div class="contact-mail">
-                <i class="fal fa-envelope fa-3x"></i>
-                <h5>info@example.com</h5>
-                <p>Lorem ipsum dolar site amet discont</p>
-              </div>
-            </div>
-          </div>
-          <div class="send-us-box">
-            <div class="send-us">
-              <div class="send-header">
-                <h1>Send Us</h1>
+          <div class="row">
+            <div class="col-12">
+              <div class="error-message d-none">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita quaerat unde quam dolor culpa veritatis inventore,
-                  aut commodi eum veniam vel.
+                  <b>Error:</b>Please try again <a href="#">Lost your password?</a>
                 </p>
               </div>
-              <form action="#">
-                <div class="row">
-                  <div class="col-12 col-lg-6">
-                    <label for="#">Your name*</label>
+            </div>
+            <form action="#">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="head-form">
+                    <h6>LOGIN</h6>
+                  </div>
+                  <div class="username">
+                    <label for="#">Username or emil address *</label>
                     <input type="text" />
                   </div>
-                  <div class="col-12 col-lg-6">
-                    <label for="#">Your email*</label>
-                    <input type="text" />
+                  <div class="password">
+                    <label for="#">Password *</label>
+                    <input type="password" />
                   </div>
-                  <div class="col-12">
-                    <label for="#">Subject*</label>
-                    <input type="text" />
+                  <div class="remember-me">
+                    <input type="checkbox" />
+                    <label for="#">Remember me</label>
                   </div>
-                  <div class="col-12">
-                    <label for="#">Your message</label>
-                    <textarea name="message" id="message" rows="5"></textarea>
-                  </div>
-                  <div class="col-12">
-                    <input type="submit" value="Send a message"/>
+                  <div class="login">
+                    <input type="submit" value="Log in" />
+                    <a href="#">Lost your password?</a>
                   </div>
                 </div>
-              </form>
-            </div>
+                <div class="col-12 col-md-6">
+                  <div class="head-form">
+                    <h6>Register</h6>
+                  </div>
+                  <div class="username">
+                    <label for="#">Email address *</label>
+                    <input type="email" />
+                  </div>
+                  <div class="password">
+                    <label for="#">Password *</label>
+                    <input type="password" />
+                  </div>
+                  <div class="privacy">
+                    <p>
+                      Your personal data will be used to support your experience
+                      throughout this website, to manage access to your account,
+                      and for other purposes described in our
+                      <a href="#">privacy policy.</a>
+                    </p>
+                  </div>
+                  <div class="login">
+                    <input type="submit" value="Register" />
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </section>
@@ -685,6 +681,6 @@
       crossorigin="anonymous"
     />
     <script src="./assets/js/index.js"></script>
-    <script src="./assets/js/blog.js"></script>
+    <script src="./assets/js/my-account.js"></script>
   </body>
 </html>

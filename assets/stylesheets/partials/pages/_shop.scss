@@ -230,7 +230,8 @@ i.fal.fa-minus {
   a
   div.banner-image {
   width: 100%;
-  height: 100%;
+  height: 100%;  
+  position: absolute;
 }
 #product-filters
   div.container
@@ -250,9 +251,10 @@ i.fal.fa-minus {
   div.banner-service
   a
   div.banner-info {
-  top: 25%;
-  left: 25%;
-  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 #product-filters
   div.container
@@ -262,7 +264,7 @@ i.fal.fa-minus {
   a
   div.banner-info
   h6 {
-  font-size: 4vmin;
+  font-size: 1.5rem;
   color: $color-2mode;
 }
 #product-filters
@@ -274,7 +276,7 @@ i.fal.fa-minus {
   div.banner-info
   span:nth-child(2) {
   font-weight: bold;
-  font-size: 5vmin;
+  font-size: 2rem;
   color: $color-2mode;
 }
 #product-filters
@@ -286,7 +288,7 @@ i.fal.fa-minus {
   div.banner-info
   span:nth-child(3) {
   font-weight: bold;
-  font-size: 5vmin;
+  font-size: 2rem;
   color: green;
 }
 #product-filters
@@ -297,7 +299,7 @@ i.fal.fa-minus {
   a
   div.banner-info
   span:nth-child(5) {
-  font-size: 2vmin;
+  font-size: 1rem;
   color: $color-3mode;
 }
 

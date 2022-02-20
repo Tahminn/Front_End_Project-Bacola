@@ -50,9 +50,9 @@ hr {
   width: 0 !important;
   height: 0 !important;
 }
-.container {
-  ///max-width: 1200px;
-}
+// .container {
+//   max-width: 1200px;
+// }
 .inactive {
   display: none !important;
   z-index: -5000 !important;
@@ -69,6 +69,12 @@ hr {
   opacity: 1 !important;
   transition: opacity 0.3s ease-out;
 }
+
+.carousel-item {
+  transition: transform 2.6s ease-in-out;
+}
+
+
 //notification-covid
 .covid19-reminder .covid-notification {
   background-color: $color-primary;
@@ -242,6 +248,7 @@ header .header-middle .container .header-side-buttons .account-button {
 
 header .header-middle .container .header-side-buttons .carts-button {
   width: 93.85px;
+  margin-left:auto;
 }
 header .header-middle .container .header-side-buttons .carts-button a {
   display: flex;
@@ -794,6 +801,9 @@ header .header-bottom .container .menu-wrapper .shop-menu li ul {
   width: 100%;
   position: relative;
   padding: 1rem;
+}
+.product-card:hover {
+  cursor: pointer;
 }
 #product-deals .container .row .coll-2 li .product-card a:nth-child(1) {
   display: inline;
@@ -1480,8 +1490,6 @@ div.footer-privacy-terms div.container {
   margin-top: 1.5rem;
   color: grey;
   font-size: $font-size-primary + 0.02;
-}
-div.footer-privacy-terms div.container div.row {
 }
 div.footer-privacy-terms
   div.container
